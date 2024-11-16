@@ -3,12 +3,15 @@ sidebar_position: 1
 ---
 
 import ButtonJS from '@site/src/components/ButtonJS';
+import ButtonTS from '@site/src/components/ButtonTS';
 
 # Tutorial Intro
 
 Let's discover **Docusaurus in less than 5 minutes**.
 
 <ButtonJS text="JSX Button" onClick={() => {alert('JSX Button')}} />
+
+<ButtonTS text="TSX Button" onClick={() => {alert('TSX Button')}} />
 
 ## Getting Started
 

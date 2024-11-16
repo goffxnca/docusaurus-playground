@@ -7,6 +7,7 @@ import Heading from "@theme/Heading";
 
 import styles from "./index.module.css";
 import ButtonJS from "@site/src/components/ButtonJS";
+import ButtonTS from "@site/src/components/ButtonTS";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -31,6 +32,13 @@ function HomepageHeader() {
             text={"JSX Button"}
             onClick={() => {
               alert("JSX Button");
+            }}
+          />
+
+          <ButtonTS
+            text={"TSX Button"}
+            onClick={() => {
+              alert("TSX Button");
             }}
           />
         </div>
