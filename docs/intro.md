@@ -1,8 +1,8 @@
-
 ---
 sidebar_position: 1
 ---
-import ButtonJS from '../src/components/ButtonJS';
+
+import ButtonJS from '@site/src/components/ButtonJS';
 
 # Tutorial Intro
 

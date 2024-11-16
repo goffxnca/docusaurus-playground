@@ -6,7 +6,7 @@ import HomepageFeatures from "@site/src/components/HomepageFeatures";
 import Heading from "@theme/Heading";
 
 import styles from "./index.module.css";
-import ButtonJS from "../components/ButtonJS";
+import ButtonJS from "@site/src/components/ButtonJS";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
